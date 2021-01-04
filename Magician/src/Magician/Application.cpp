@@ -1,4 +1,5 @@
 #include "Application.h"
+#include <stdio.h>
 
 namespace Magician {
 	Application::Application()
@@ -12,6 +13,7 @@ namespace Magician {
 
 	void Application::Run()
 	{
+		printf("Application");
 		while (true);
 	}
 }

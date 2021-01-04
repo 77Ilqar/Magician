@@ -16,5 +16,6 @@ public:
 
 Magician::Application* Magician::CreateApplication()
 {
+	printf("SandboxApp");
 	return new Sandbox();
 }

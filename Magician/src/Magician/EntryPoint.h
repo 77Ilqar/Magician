@@ -7,7 +7,7 @@ extern Magician::Application* Magician::CreateApplication();
 
 int main(int argc, char** argv)
 {
-	printf("Magician Engine");
+	printf("Entry Point");
 	auto app = Magician::CreateApplication();
 	app->Run();
 	delete app;
